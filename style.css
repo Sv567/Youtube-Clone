@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 10px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding-left: 18px;
+}
+
+.navbar img {
+    height: 30px;
+}
+
+.navbar .material-symbols-outlined {
+    padding-right: 20px;
+    color: grey;
+}
+
+.search-bar form {
+    /* border : 1px solid grey; */
+    height: 35px;
+    margin: 0;
+    padding: 0;
+    border: none;
+    display: flex;
+    border-radius: 0px;
+}
+
+.search-bar input {
+    width: 500px;
+    height: 35px;
+    padding-left: 7px;
+}
+
+.search-bar button {
+    /* padding-top : 7px; */
+    /* background-color: rgb(202, 199, 199); */
+    cursor: pointer;
+}
+
+.icons .material-symbols-outlined {
+    /* padding-left: 30px; */
+    color: grey;
+    padding-right: 20px;
+}
+
+ .cat{
+    color: rgb(101, 101, 101);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 200px;
+    padding-top: 20px
+ }
+main{
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+}
+.side-bar{
+    display: flex;
+    padding-top: 15px;
+}
+
+.sidebar-cat{
+    display: flex;
+    align-items: center;
+    padding: 15px 20px;
+}
+.sidebar-cat span{
+    padding-left: 13px;
+}
+.cat :hover{
+    cursor: pointer;
+    background-color: rgb(220, 218, 218);
+}
+
+.vdo-section{
+    background-color: #f9f9f9;
+    border-top: 1px solid #ddd;
+    height: 100%;
+    width: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.vdo-cont{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    position: absolute;
+}
+.vdo{
+    width: 300px;
+    margin-left: 20px;
+}
+.thumbnail {
+    width: 100%;
+    height: 170px;
+   
+}
+.thumbnail img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    /* margin-right: 10px; */
+    padding-bottom: 10px;
+    padding-top: 20px;
+
+}
+
+.vdo-details{
+    display: flex;
+    flex-direction: row;
+}
+.channel-logo img{
+    border-radius: 50%;
+    height: 40px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+}
+
+.info h3{
+    padding: 0px 0px 0px 5px;
+    line-height: 20px;
+}
+.info a{
+    text-decoration: none;
+    color: rgb(74, 72, 72)
+}
+.info span{
+    color : rgb(74, 72, 72)
+}
+h2{
+    padding-top: 10px;
+}
+
